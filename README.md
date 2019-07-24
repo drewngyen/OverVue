@@ -4,7 +4,8 @@ OverVue is a prototyping tool designed to allow developers or anyone new to Vue 
 [Demo it here](https://amplify-deployment.dq4eip9uld1pf.amplifyapp.com/#/)
 <br>
 ![screenshot](https://github.com/drewngyen/OverVue/blob/master/screenshot.png?raw=true)
-#### Image Upload
+<p align="center">
+  <b>Image Upload</b><br>
 <p align="center">
   <img src="https://github.com/drewngyen/OverVue/blob/master/upload-image-drawers.gif?raw=true">
 </p>
