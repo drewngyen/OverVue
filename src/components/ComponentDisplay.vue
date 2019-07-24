@@ -19,11 +19,10 @@
       <div class="component-title">
         <p>{{ componentData.componentName }}</p>
       </div>
-      <ul class="component-children">
+      <!-- <ul class="component-children">
         <li># of children: {{ componentMap[componentData.componentName].children.length }}</li>
         <li>children: {{ componentMap[componentData.componentName].children }}</li>
-        <!-- <p v-for="child in childList" :key="childList.indexOf(child)"> {{ child.text }}</p> -->
-      </ul>
+      </ul> -->
       <q-menu context-menu>
         <q-list class="menu">
           <q-item clickable v-ripple v-close-popup @click="handleAddChild">

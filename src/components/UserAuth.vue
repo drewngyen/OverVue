@@ -3,7 +3,7 @@
     <div v-if="isLoggedIn">
       <q-item clickable :to="{name: 'profile'}">
         <q-item-section avatar>
-          <q-icon name="settings" />
+          <q-icon name="settings" style="color: white" />
         </q-item-section>
         <q-item-section>
           <q-item-label>Profile</q-item-label>
@@ -15,7 +15,7 @@
     <div v-if="isLoggedIn">
       <q-item clickable @click="signOut">
         <q-item-section avatar>
-          <q-icon name="stop" />
+          <q-icon name="stop" style="color: white" />
         </q-item-section>
         <q-item-section>
           <q-item-label>Logout</q-item-label>
@@ -26,10 +26,9 @@
     <div v-if="!isLoggedIn">
       <q-item clickable @click="icon = true">
         <q-item-section avatar>
-          <q-icon name="group" />
+          <q-icon name="group" style="color: grey" />
         </q-item-section>
         <q-item-section>
-          <q-item-label>Login/SignUp</q-item-label>
           <q-item-label caption>Login or Signup</q-item-label>
         </q-item-section>
       </q-item>
@@ -38,7 +37,7 @@
     <q-dialog v-model="icon">
       <q-card class="login-modal">
         <q-card-section class="row items-center">
-          <div class="text-h6">PreVue 2.0</div>
+          <div class="text-h6">OverVue</div>
           <q-space />
           <q-btn icon="close" flat round dense v-close-popup />
         </q-card-section>
