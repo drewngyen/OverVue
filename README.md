@@ -8,15 +8,27 @@ OverVue is a prototyping tool designed to allow developers or anyone new to Vue 
 <p align="center">
   <img src="https://github.com/drewngyen/OverVue/blob/master/upload-image-drawers.gif?raw=true">
 </p>
-![imageupload]()
+
 #### Creating Components
-![createcomponent](https://github.com/drewngyen/OverVue/blob/master/component%20creation.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/drewngyen/OverVue/blob/master/component%20creation.gif?raw=true">
+</p>
+
 #### Code Snippets
-![codesnippet](https://github.com/drewngyen/OverVue/blob/master/snippets-active-component.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/drewngyen/OverVue/blob/master/snippets-active-component.gif?raw=true">
+</p>
+
 #### Sidebar Components
-![sidebar](https://raw.githubusercontent.com/drewngyen/OverVue/master/sidebar-components-routes.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/drewngyen/OverVue/master/sidebar-components-routes.gif">
+</p>
+
 #### Component Hierarchy Tree
-![tree](https://github.com/drewngyen/OverVue/blob/master/HTML-elements-tree-rerender.gif?raw=true)
+<p align="center">
+  <img src="https://github.com/drewngyen/OverVue/blob/master/HTML-elements-tree-rerender.gif?raw=true">
+</p>
+
 #### Authors
 ```
 Founders: 
