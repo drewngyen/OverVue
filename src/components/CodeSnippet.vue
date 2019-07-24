@@ -2,7 +2,7 @@
   <div class="codesnippet-container">
     <!-- <input type="checkbox" v-model="lineNumbers"> Linenumbers -->
     <div class="top-p" v-if="activeComponent === ''">Select a component</div>
-    <div v-else>{{ `${activeComponent}.vue` }}</div>
+    <div v-else class="top-p">{{ `${activeComponent}.vue` }}</div>
     <prism-editor
       v-model="code"
       language="js"
